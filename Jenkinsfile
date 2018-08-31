@@ -5,7 +5,7 @@
 // GitHub Behaviours: Clean Before Checkout
 // GitHub Build strategies: Regular Branches
 // GitHub Build strategies: Tags
-// Scan Repository Triggers Periodically  if no hooks
+// Scan Repository Triggers Periodically if no hooks
 properties([disableConcurrentBuilds()])
 
 def getSlackJobNameMsg () {
